@@ -14,20 +14,12 @@ Ever wondered which SSH key your terminal will actually use?
 idctl risk
 ```
 
-```text
-LOW
+<p align="center">
+  <img src="docs/images/risk-example.png" alt="idctl risk output: kubectl and SSH identity mismatches grouped under MEDIUM severity" width="720">
+</p>
+<p align="center"><sub>Actionable findings only — no healthy-system noise.</sub></p>
 
-SSH identity mismatch
-
-Problem:
-Expected key ~/.ssh/id_personal is not loaded in ssh-agent
-
-Impact:
-SSH connections may authenticate as another identity
-
-Fix:
-ssh-add ~/.ssh/id_personal
-```
+Only problems are shown, grouped by severity, each with **Problem**, **Impact**, and **Fix**.
 
 ## Why?
 
