@@ -34,7 +34,7 @@ Modern developer environments contain multiple identities:
 
 ## Install
 
-*Option 1: go install**
+**Option 1: go install**
 ```bash
 go install github.com/voyager556321/idctl/cmd/idctl@latest
 ```
@@ -45,7 +45,20 @@ Grab the latest Linux/macOS binary from [Releases](https://github.com/voyager556
 
 ## Quick start
 
+**1. Create your config**
 ```bash
-idctl risk     # show mismatches and risks
-idctl status   # show full identity snapshot
+idctl init
 ```
+Opens `~/.idctl/config.yaml` — declare your identity profiles (Git name/email, AWS profile, kube context, SSH key).
+
+**2. Check for risks**
+```bash
+idctl risk
+```
+Shows only problems — mismatches and risks grouped by severity.
+
+**3. Full snapshot**
+```bash
+idctl status
+```
+Shows everything that's active right now.
