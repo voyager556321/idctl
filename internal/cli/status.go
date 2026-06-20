@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"os"
 
-	"idctl/internal/config"
-	"idctl/internal/engine"
-	"idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/config"
+	"github.com/voyager556321/idctl/internal/engine"
+	"github.com/voyager556321/idctl/internal/model"
 )
 
 func cmdStatus(args []string) int {

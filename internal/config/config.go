@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/model"
 )
 
 // Config is the parsed config file.

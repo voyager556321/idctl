@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"idctl/internal/model"
-	"idctl/internal/sys"
+	"github.com/voyager556321/idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/sys"
 )
 
 type SSH struct{}

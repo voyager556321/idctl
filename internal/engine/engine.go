@@ -6,8 +6,8 @@ package engine
 import (
 	"context"
 
-	"idctl/internal/adapter"
-	"idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/adapter"
+	"github.com/voyager556321/idctl/internal/model"
 )
 
 // ReadAll runs every adapter's Read into a fresh Identity.

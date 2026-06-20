@@ -3,7 +3,7 @@ package predictor
 import (
 	"testing"
 
-	"idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/model"
 )
 
 func profiles() map[string]model.Profile {

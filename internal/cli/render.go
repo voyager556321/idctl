@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/model"
 )
 
 // Color is disabled when NO_COLOR is set or stdout isn't a terminal-ish env.

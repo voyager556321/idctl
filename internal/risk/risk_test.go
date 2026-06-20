@@ -3,7 +3,7 @@ package risk
 import (
 	"testing"
 
-	"idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/model"
 )
 
 func workProfile() *model.Profile {

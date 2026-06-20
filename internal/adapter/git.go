@@ -4,8 +4,8 @@ import (
 	"context"
 	"strings"
 
-	"idctl/internal/model"
-	"idctl/internal/sys"
+	"github.com/voyager556321/idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/sys"
 )
 
 type Git struct{}

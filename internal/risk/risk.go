@@ -8,8 +8,8 @@ import (
 	"sort"
 	"strings"
 
-	"idctl/internal/engine"
-	"idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/engine"
+	"github.com/voyager556321/idctl/internal/model"
 )
 
 // Finding is one actionable issue with enough context to act on it.

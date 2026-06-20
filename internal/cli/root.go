@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"idctl/internal/config"
+	"github.com/voyager556321/idctl/internal/config"
 )
 
 const usage = `idctl - read-only inspector for your runtime identity context

@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"strings"
 
-	"idctl/internal/engine"
-	"idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/engine"
+	"github.com/voyager556321/idctl/internal/model"
 )
 
 // Action identifiers, also accepted by `idctl predict --action`.

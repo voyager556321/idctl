@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"idctl/internal/model"
+	"github.com/voyager556321/idctl/internal/model"
 )
 
 // Adapter is implemented by every subsystem (git, aws, kube, ssh).

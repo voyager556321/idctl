@@ -6,7 +6,7 @@ package main
 import (
 	"os"
 
-	"idctl/internal/cli"
+	"github.com/voyager556321/idctl/internal/cli"
 )
 
 func main() {
