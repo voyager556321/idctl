@@ -31,3 +31,21 @@ Modern developer environments contain multiple identities:
 * SSH keys
 
 `idctl` helps you understand which identity is actually active right now.
+
+## Install
+
+*Option 1: go install**
+```bash
+go install github.com/voyager556321/idctl/cmd/idctl@latest
+```
+
+**Option 2: Download binary**
+
+Grab the latest Linux/macOS binary from [Releases](https://github.com/voyager556321/idctl/releases).
+
+## Quick start
+
+```bash
+idctl risk     # show mismatches and risks
+idctl status   # show full identity snapshot
+```
