@@ -62,3 +62,9 @@ Shows only problems — mismatches and risks grouped by severity.
 idctl status
 ```
 Shows everything that's active right now.
+
+**4. Predict next action risks**
+```bash
+idctl predict
+```
+Shows what will actually happen when you run `git commit`, `git push`, `aws cli`, `kubectl apply` or `ssh connect` — before you do it.
